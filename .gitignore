@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Allow these specific files/folders
+!.gitignore
+!README.md
+!LICENSE
+!langchain_tool_calling__agent_with_md.py
+!python_jupyter_kernel_tool.py
+!trace_data/
+!trace_data/**
+
+# Still ignore compiled/cache files inside allowed dirs
+__pycache__/
+*.pyc
+.idea/
